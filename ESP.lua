@@ -4,7 +4,7 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/REDzHUB/LibraryV2/main/redzLib")))()
 MakeWindow({
     Hub = {
-        Title = "透视功能",  -- 原"Esp"
+        Title = "MP透视功能",  -- 原"Esp"
         Animation = "by thaibao7444"  -- 保留作者信息
     },
     Key = {
@@ -22,7 +22,7 @@ MakeWindow({
     }
 })
 
-local Main = MakeTab({Name = "透视功能"})  -- 原"Esp"
+local Main = MakeTab({Name = "MP透视功能"})  -- 原"Esp"
 
 local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
 ESP:Toggle(true)
